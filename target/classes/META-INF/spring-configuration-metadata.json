@@ -1,0 +1,93 @@
+{
+  "groups": [
+    {
+      "name": "generator",
+      "type": "com.luo.cofig.MybatisPlusAutoGenerator",
+      "sourceType": "com.luo.cofig.MybatisPlusAutoGenerator"
+    },
+    {
+      "name": "spring.influx",
+      "type": "com.luo.cofig.InfluxDbProperties",
+      "sourceType": "com.luo.cofig.InfluxDbProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "generator.driver",
+      "type": "java.lang.String",
+      "sourceType": "com.luo.cofig.MybatisPlusAutoGenerator"
+    },
+    {
+      "name": "generator.password",
+      "type": "java.lang.String",
+      "sourceType": "com.luo.cofig.MybatisPlusAutoGenerator"
+    },
+    {
+      "name": "generator.url",
+      "type": "java.lang.String",
+      "sourceType": "com.luo.cofig.MybatisPlusAutoGenerator"
+    },
+    {
+      "name": "generator.username",
+      "type": "java.lang.String",
+      "sourceType": "com.luo.cofig.MybatisPlusAutoGenerator"
+    },
+    {
+      "name": "spring.influx.actions",
+      "type": "java.lang.Integer",
+      "sourceType": "com.luo.cofig.InfluxDbProperties",
+      "defaultValue": 2000
+    },
+    {
+      "name": "spring.influx.buffer-limit",
+      "type": "java.lang.Integer",
+      "sourceType": "com.luo.cofig.InfluxDbProperties",
+      "defaultValue": 10000
+    },
+    {
+      "name": "spring.influx.database",
+      "type": "java.lang.String",
+      "sourceType": "com.luo.cofig.InfluxDbProperties"
+    },
+    {
+      "name": "spring.influx.flush-duration",
+      "type": "java.lang.Integer",
+      "sourceType": "com.luo.cofig.InfluxDbProperties",
+      "defaultValue": 1000
+    },
+    {
+      "name": "spring.influx.jitter-duration",
+      "type": "java.lang.Integer",
+      "sourceType": "com.luo.cofig.InfluxDbProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.influx.password",
+      "type": "java.lang.String",
+      "sourceType": "com.luo.cofig.InfluxDbProperties"
+    },
+    {
+      "name": "spring.influx.retention-policy",
+      "type": "java.lang.String",
+      "sourceType": "com.luo.cofig.InfluxDbProperties",
+      "defaultValue": "autogen"
+    },
+    {
+      "name": "spring.influx.retention-policy-time",
+      "type": "java.lang.String",
+      "sourceType": "com.luo.cofig.InfluxDbProperties",
+      "defaultValue": "30d"
+    },
+    {
+      "name": "spring.influx.url",
+      "type": "java.lang.String",
+      "sourceType": "com.luo.cofig.InfluxDbProperties"
+    },
+    {
+      "name": "spring.influx.user-name",
+      "type": "java.lang.String",
+      "sourceType": "com.luo.cofig.InfluxDbProperties"
+    }
+  ],
+  "hints": []
+}

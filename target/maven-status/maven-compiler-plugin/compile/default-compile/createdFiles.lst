@@ -1,0 +1,12 @@
+com\luo\SpringbootInfluxdbApplication.class
+com\luo\Cofig\MybatisPlusAutoGenerator.class
+com\luo\entity\RealData.class
+com\luo\constants\CodeEnum.class
+com\luo\constants\PageResult.class
+com\luo\controller\BaseController.class
+com\luo\service\RealDataService.class
+com\luo\constants\Result.class
+com\luo\service\impl\RealDataServiceImpl.class
+com\luo\Cofig\MybatisPlusConfig.class
+com\luo\mapper\RealDataMapper.class
+com\luo\controller\RealDataController.class

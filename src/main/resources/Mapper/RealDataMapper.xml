@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.luo.mapper.RealDataMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.luo.entity.RealData">
+        <id column="DATA_ID" property="dataId" />
+        <result column="TARGET_CODE" property="targetCode" />
+        <result column="COLLECT_VALUE" property="collectValue" />
+        <result column="COLLECT_TIME" property="collectTime" />
+    </resultMap>
+
+    <select id="list" resultType="com.luo.entity.RealData">
+        select *from tb_real_data order by COLLECT_TIME asc limit 0,1000
+    </select>
+</mapper>
